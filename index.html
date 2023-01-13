@@ -7,19 +7,33 @@
         <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <h1>Hello, my name is Abubakar</h1>
-            <img src="./img/Abubakar Ibrahim.jpg" alt="author" class="img">
-            
-            <h2>I am a frontend designer</h2>
-            <p>Ultricies morbi urna lectus magna quisque ultricies velit enim nisi mi volutpat amet id id porta auctor at viverra consequat turpis quam enim amet vulputate.</p>
-            
-            <h2>My most recent article</h2>
-            <article>
-                <h3>Design systems that scale</h3>
-                <p>Writen by Sophie on June 19, 2020</p>
-                <p>Ultricies morbi urna lectus magna quisque ultricies velit enim nisi mi volutpat amet id id porta auctor at viverra consequat turpis quam enim... <a href="#">continue reading</a></p>    
-            </article>
-        </div>
+        <header class="inverse">
+            <div class="container">
+                <h1>Hello, my name is <span class="accent-text">Abubakar</span></h1>
+                <img src="./img/Abubakar Ibrahim.jpg" alt="portrait of abubakar">
+            </div>
+        </header>
+        
+        
+        <section class="about-me">
+            <div class="container">
+                <h2>I am a <span class="accent-text">frontend designer </span></h2>
+                <p>Ultricies morbi urna lectus magna quisque ultricies velit enim nisi mi volutpat amet id id porta auctor at viverra consequat turpis quam enim amet vulputate.</p>
+                <a href="https://app.netlify.com/teams/boybarry0/overview" class="btn">See my work</a>
+            </div>
+        </section>
+        
+        
+        <section class="articles inverse">
+            <div class="container">
+                <h2>My most recent <span class="accent-text">article</span></h2>
+                <article>
+                    <h3>Design systems that scale</h3>
+                    <p class="small-text">Writen by <span class="name">Sophie</span> on <time datetime="2020-06-19">June 19, 2020</time></p>
+                    <p>Ultricies morbi urna lectus magna quisque ultricies velit enim nisi mi volutpat amet id id porta auctor at viverra consequat turpis quam enim... <a href="#">continue reading</a></p>
+                    <a href="https://github.com/iabbakr" class="btn">See all my work</a>      
+                </article>
+            </div>
+        </section>
     </body>
 </html>
